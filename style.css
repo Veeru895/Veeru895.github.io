@@ -1,0 +1,376 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-block2{margin:5% 1%;background-color:#d3d3d347 ;padding: 2% 0% 0% 0%;}
+.main-block2 .card table tr td:first-child{ background-color:#eae3d9; padding:40px 30px;height:300px;position:relative;top:-7px;}
+.main-block2 .card table tr td:first-child h1{color:rgb(198, 176, 153);}
+.main-block2 .card table tr td:first-child h3{color: #c3b9b6;
+font-weight: 200;
+margin: 5px 0px !important;
+font-size: 14px;
+text-align: center;}
+.main-block2 h1{font-weight:300;}
+.main-block2 p{text-align:center;font-style:italic;color:rgb(198, 176, 153);}
+.main-block2 .card table tr td:nth-child(2){padding:2rem 2rem;color:black;background-color:white;position:relative;top:-7px;}
+.main-block2 .card table tr td:nth-child(2) p{line-height:1.5rem;text-align:left;}
+.main-block2 .card{padding:0px!important;}
+.footer-block{
+        background-color: black;
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 3% 5%;
+}
+.footer-block input{padding: 17px 30px;
+background-color: white;
+color: black;
+opacity: 1 !important;
+border: none; 
+   }
+   .footer-block input:first-child{width:300px;
+   }
+
+   .footer-block input:nth-child(2):hover{background: white;
+    background-color: rgba(198, 176, 153,0.3);cursor:pointer;
+    color: rgb(198, 176, 153);
+   }
+
+.footer-block .button{position: relative;
+    left: -5px;
+    text-shadow: none; padding: 17px 40px!important;border:none;
+   }
+.footer-block table{margin:auto;font-size:12px;padding:40px 25px;}
+.footer-block table td{ padding:2px 24px; border-right:2px solid white;font-weight:bold;cursor:pointer; }
+.topnav {
+  overflow: hidden;
+  
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+#myLinks a:hover{background-color:rgb(198, 176, 153);color:white;}
+
+.topnav a {
+  color: black;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav div.icon {
+  color:black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-right:25px;
+    padding-left:25px;
+    height: 100%;
+    cursor:pointer;
+}
+
+.topnav div:hover {
+  color:rgb(198, 176, 153);
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.card {
+  
+  
+  padding: 1rem;
+  
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr));
+}
+
+.hero-block{height: 500px;
+    background: rgb(204, 204, 204); text-align:center;
+}
+
+.hero-blocksub{height: 500px;background: url('./teammeet.jpg');background-size:cover; }
+.hero-blocksub .bg{width: 45%;
+    background: rgba(203, 201, 189,0.8);
+   
+    height: 100%;
+   padding:0% 5%;}
+.hero-blocksub article h1{color:black;text-transform:uppercase;font-weight:bold;}
+
+.hero-block article,.hero-blocksub article{position:relative;top:30%;}
+.hero-block article h1,.hero-block article h3,.hero-blocksub article h1{ color:white;font-weight:bold;text-transform:uppercase; }
+.hero-block  button:first-child,.footer-block .button{ padding:15px 30px; background-color:rgb(198, 176, 153); color:white;  }
+.hero-block  button:nth-child(2),.hero-blocksub  button{ padding:15px 30px; background-color:white; color:black;}
+.font-icon{display:inline-block;padding:0px 10px;}
+.services .heading{ text-align:center;font-weight:bold; }
+.services p{color:rgb(232, 164, 165);} .services i{color:white;}
+.services .main-block .card :first-child header{text-align:right;padding-right: 15px;font-weight:600; }
+.services .main-block .card :nth-child(2) header{text-align:left;padding-right: 15px;font-weight:600; }
+.circle{width:80px;
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    background-color: rgb(232, 164, 165);
+    border-radius: 50%;
+}
+
+.circle i{
+    position: relative;
+    top: 30%;
+    vertical-align: middle;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.main-block1{text-align: center;color:white;
+    padding: 5% 7%;
+    margin: 2% 2%;background:url("./road.jpg"); background-size:cover;}
+.main-block1 .circle{ background-color:transparent;border:1px solid white;}
+
+
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .footer-block .button {
+    position: relative;
+    left: 0px;
+    text-shadow: none;
+    padding: 17px 116px !important;
+    border: none;
+    top: 10px;
+}
+.footer-block table{display:none;}
+  .social-icons{display:none;}
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .hero-block button:nth-child(2), .hero-blocksub button {
+    padding: 15px 30px;width:61%;
+    background-color: white;margin-top:10px;    color: black;
+}
+
+.hero-blocksub .bg {
+    width: 100%;
+    background: rgba(203, 201, 189,0.8);
+    height: 100%;
+    padding: 0% 5%;
+}
+
+}
+
+.events-block .card{padding:1rem 0rem;}
+.events-block 
+.events-block .right-block{display:inline-grid;}
+.events-block .right-block table tr td{font-size: 13px;
+color: gray;
+opacity: 0.7;
+padding: 10px;display:inline-block;font-style:italic;}
+.events-block .cards .card:nth-child(1){padding-left:25%;}
+.events-block .right-block table tr td:nth-child(2){ padding-left:0px!important; }
+.events-block .right-block table tr:nth-child(2) td:nth-child(2){ color:rgb(198, 176, 153)!important; }
+.events-block .right-block table tr:nth-child(4){height:2px;}
+.events-block .right-block table tr td input {cursor:pointer; background-color:rgb(198, 176, 153);padding:8px 15px;color:white;border:none; }
+.events-block .right-block h3{margin: 0px 10px 10px 10px !important;}
+
+.social-icons {
+    list-style: none;
+padding: 0;
+margin: 0;
+position: absolute;
+top: 30px;
+right: 100px;
+}
+
+.social-icons > li {
+    display: inline-block;
+}
+
+.social-icons > li > a {
+    background-color: rgb(198, 176, 153);
+    display: block;
+    margin: 0 8px 8px 0;
+    text-align: center;
+    
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    color: #777777;
+}
+
+.social-icons > li > a i{line-height:2;}
+.social-icons > li > a:hover,
+.social-icons > li > a:focus {
+    background: white;
+    border:1px solid rgb(198, 176, 153);
+    color: rgb(198, 176, 153);
+}
+
+/* --- [ 
+Social Icons Size ] --- */
+
+.social-icons-lg > li > a {
+    
+    font-size: 16px;
+    height: 48px;
+    width: 48px;
+}
+
+.social-icons-md > li > a {
+    
+    height: 40px;
+    width: 40px;
+}
+
+/* --- [ Social Icons Mode ] --- */
+
+.social-icons-round > li > a {
+    border-radius: 2px;
+}
+
+.social-icons-circle > li > a {
+    border-radius: 100%;
+}
+
+/* --- [ Social Icons Colored ] --- */
+
+.social-icons-colored > li > a {
+    color: #ffffff;
+}
+
+.social-icons-colored > li > a:hover,
+.social-icons-colored > li > a:focus {
+    opacity: 0.85;
+}
+
+/* --- [ Social Icons Simple ] --- */
+
+.social-icons-simple > li > a {
+    display: inline;
+    background: none;
+    margin: 0 10px 10px 0;
+
+}
+
+.social-icons-simple > li > a:hover,
+.social-icons-simple > li > a:focus {
+    background: none;
+    color: inherit;
+}
+
+.social-icons a{padding:0px!important;}
+
+
+
+
